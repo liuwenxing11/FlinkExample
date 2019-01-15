@@ -25,7 +25,7 @@ import org.apache.flink.util.Collector;
 public class SocketWindowWordCountJava {
 
     public static void main(String[] args) throws Exception{
-        //获取需要的端口号
+        //获取需要的端口号号
         int port;
         try {
             ParameterTool parameterTool = ParameterTool.fromArgs(args);
